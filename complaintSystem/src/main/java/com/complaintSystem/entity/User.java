@@ -21,9 +21,9 @@ public class User {
 
     private String password;
      @Column(unique = true,nullable = false)
-    private String moboleNumber;
+    private String mobileNumber;
 
-    private String role;// user , officer
+    private String role;// user , office
 
     private String district;
 
